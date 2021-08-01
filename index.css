@@ -2022,6 +2022,7 @@ button .floating-btn:focus {
     max-width: 140rem;
   }
 }
+
 #logo{font-family: 'Fugaz One', cursive; color:#262626; font-size:40px; position:absolute; top:2%; left:2%;  color: #cd9e67; }
 #logo1{color:#d9d9d9; font-size:18px;}
 #circle1{position:absolute; width:80%; height:160%; top:5%; left:10%; border-radius:100%; z-index:-3; background:#fafafa;}
@@ -2031,11 +2032,54 @@ button .floating-btn:focus {
 #infodiv{position:absolute; width:92%; height:auto; top:145%; left:4%; background:white;-webkit-box-shadow: 0px 8px 17px -11px rgba(0,0,0,0.63); 
 box-shadow: 0px 8px 17px -11px rgba(0,0,0,0.63);border-radius:10px;}
 #wtr{margin-top:230px; font-family: 'STIX Two Math', serif; font-size:70px; color:#262626; font-weight:800;}
+#infoimg{width:180px; opacity:0.95;}
+#info0{margin-top:100px; font-family: 'Poppins', sans-serif; font-size:30px; letter-spacing:1px; color:#262626;}
 #info1{width:25%; height:400px; margin-left:5%; float:left; margin-bottom:100px; margin-top:200px;}
 #info2{width:25%; height:400px; margin-left:7%; float:left; margin-bottom:-10px;}
 #info3{width:25%; height:400px; margin-left:5%; float:left; margin-bottom:100px; margin-top:200px;}
-
+#option{position:absolute; width:50px; height:50px; top:4%; right:2.5%; border-radius:50%; -webkit-box-shadow: 0px 5px 13px -7px rgba(0,0,0,0.62); 
+box-shadow: 0px 5px 13px -7px rgba(0,0,0,0.62);}
+.slideShowcss{margin-top:210%; width:96%; margin-left:2%; -webkit-box-shadow: 0px 2px 13px -7px rgba(0,0,0,0.62); 
+box-shadow: 0px 2px 13px -7px rgba(0,0,0,0.62);}
+#quote{position:absolute; width:100%; height:10%; top:307.5%; left:0%; font-family: 'Poppins', sans-serif; font-size:18px;}
+#quotec{position:relative; top:-30px; left:-20px;}
+#quotei{width:100px; position:relative; left:-30px;}
+#space{position:absolute; width:100%; height:120%; top:330%; left:0%; background-position:fixed; background-image:url(bg2.jpg);-webkit-box-shadow: 0px 8px 17px -11px rgba(0,0,0,0.63); 
+box-shadow: 0px 8px 17px -11px rgba(0,0,0,0.63);clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);}
+#footer{position:absolute; width:100%; height:30%; top:600%; left:0%; background:white; -webkit-box-shadow: 0px 3px 17px -11px rgba(0,0,0,0.63); 
+box-shadow: 0px 3px 17px -11px rgba(0,0,0,0.63);border-radius:10px; font-family: 'Poppins', sans-serif;}
+#lstc{position:absolute; top:15%; height:25%; width:20%; right:5%; background:#7070ff; border-radius:8px; color:white; font-weight:800;}
+#esfoot{position:absolute; top:50%; height:30%; width:30%; right:3%; color:#333333;}
+#footinfo{color: #999999;float:right;}
 @media only screen and (max-width: 1000px) {
-
-
-]
+#circle1{position:absolute; width:180%; height:100%; top:-5%; left:-40%; border-radius:100%; z-index:-3; background:#fafafa;}
+#circle2{position:absolute; width:160%; height:80%; top:5%; left:-30%; border-radius:100%; z-index:-2; background:#f8f8f8;}
+#circle3{position:absolute; width:140%; height:60%; top:15%; left:-20%; border-radius:100%; z-index:-1; background:#f6f6f6; }
+#wtr{margin-top:140px; font-family: 'STIX Two Math', serif; font-size:35px; color:#262626; font-weight:800; }
+#img1{content: url(images/img3.svg) !important;top:30%;}
+#logo{font-family: 'Fugaz One', cursive; color:#262626; font-size:40px; position:absolute; top:3%; left:6%;  color: #cd9e67; }
+#logo1{color:#d9d9d9; font-size: 4vw; position:relative; left:11%;}
+#option{position:absolute; width:50px; height:50px; top:3%; right:2.5%; border-radius:50%; -webkit-box-shadow: 0px 5px 13px -7px rgba(0,0,0,0.62); 
+box-shadow: 0px 5px 13px -7px rgba(0,0,0,0.62);}
+#infodiv{position:absolute; width:96%; height:auto; top:75%; left:2%; background:white;-webkit-box-shadow: 0px 8px 17px -11px rgba(0,0,0,0.63); 
+box-shadow: 0px 8px 17px -11px rgba(0,0,0,0.63);border-radius:10px;}
+.slideShowcss{position:absolute; top:210%; width:96%; left:2%; -webkit-box-shadow: 0px 2px 13px -7px rgba(0,0,0,0.62); 
+box-shadow: 0px 2px 13px -7px rgba(0,0,0,0.62);}
+#info0{margin-top:100px; font-family: 'Poppins', sans-serif; font-size:4.5vw; letter-spacing:1px; color:#262626;}
+#infoimg{width:120px; opacity:0.95;}
+#info1{width:90%; height:400px; margin-left:5%; float:left; margin-bottom:100px; margin-top:0px;}
+#info2{width:90%; height:400px; margin-left:5%; float:left; margin-bottom:100px; margin-top:-120px;}
+#info3{width:90%; height:400px; margin-left:5%; float:left; margin-bottom:0px; margin-top:-120px;}
+#quote{position:absolute; width:100%; height:10%; top:270%; left:0%; font-family: 'Poppins', sans-serif; font-size:2vw;}
+#quotec{position:relative; top:-60px; left:40px;}
+#quotei{width:100px; position:relative;top:60px; left:-35%;}
+#space{position:absolute; width:100%; height:120%; top:297.5%; left:0%; background-position:fixed; background-image:url(bg2.jpg);-webkit-box-shadow: 0px 8px 17px -11px rgba(0,0,0,0.63); 
+box-shadow: 0px 8px 17px -11px rgba(0,0,0,0.63);clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);}
+.slideShowcss{position:absolute; top:310%; width:100%; left:-2%; -webkit-box-shadow: 0px 2px 13px -7px rgba(0,0,0,0.62); 
+box-shadow: 0px 2px 13px -7px rgba(0,0,0,0.62);}
+#footer{position:absolute; width:100%; height:30%; top:540%; left:0%; background:white; -webkit-box-shadow: 0px 3px 17px -11px rgba(0,0,0,0.63); 
+box-shadow: 0px 3px 17px -11px rgba(0,0,0,0.63);border-radius:10px; font-family: 'Poppins', sans-serif;}
+#lstc{position:absolute; top:40%; height:22.5%; width:60%; right:3%; background:#7070ff; border-radius:8px; color:white; font-weight:800;}
+#esfoot{position:absolute; top:10%; height:30%; width:80%; right:3%; color:#333333;}
+#footinfo{color: #999999;float:right; margin-left:70px; font-size:2.5vw;}
+}
